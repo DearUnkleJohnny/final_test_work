@@ -20,3 +20,6 @@ void ConvertArray(string[] array1, string[] array2)
     }
 }
 
+Console.WriteLine("Заданный массив:");
+PrintArray(arrayOne);
+
