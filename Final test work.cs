@@ -22,4 +22,7 @@ void ConvertArray(string[] array1, string[] array2)
 
 Console.WriteLine("Заданный массив:");
 PrintArray(arrayOne);
-
+Console.WriteLine();
+Console.WriteLine("Сформированный массив с эллементами менее 4-х знаков:");
+ConvertArray(arrayOne, arrayTwo);
+PrintArray(arrayTwo);
